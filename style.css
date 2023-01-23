@@ -35,6 +35,8 @@ color:var(--text-color)
 }
 
 body{
+  background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
   /*background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -42,7 +44,6 @@ body{
   
   vamos criar agora um ShortHande
   background: 1º color ou imagem, 2ºrepeat / size*/
-  background: var(--bg-url) no-repeat top center/cover;
 }
 /* Adjust container width */
 #container{
@@ -167,7 +168,15 @@ footer{
   padding: 24px 0;
   font-size: 14px;
 
-}
-  
 
+}
+/* Media queiries */
+@media(min-width:700px) {
+  :root{
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light{
+    --bg-url: url(./assets/bg-desktop-Light);
+  }
+}
 
