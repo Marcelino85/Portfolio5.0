@@ -44,6 +44,7 @@ body{
   background: 1º color ou imagem, 2ºrepeat / size*/
   background: var(--bg-url) no-repeat top center/cover;
 }
+/* Adjust container width */
 #container{
   width: 100%;
   max-width: 588px;
