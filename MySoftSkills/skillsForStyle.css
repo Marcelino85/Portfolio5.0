@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+/* Variavel */
+:root{
+  --text-color:white;
+  --bg-url: url(./assets/bg-mobile.jpg);
+  --stroke-color:rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(0,0,0,0.02);
+  --highlight-color: rgba(255,255,255,0.2);
+  --switch-bg-url: url(./assets/moon-starse.svg);
+
+
+}
+
+
+body *{
+  font-family: "Inter", sans-serif;
+  color:var(--text-color)
+}
+body{
+  background-image: url(./bg-desktop.jpg);
+  
+}
+
+.container{
+  border: 1px solid white;
+  width:400px;
+  margin-top: 100px;
+  margin-left: 500px;
+  padding: 10px;
+  
+}
+ul,li  {
+  list-style: none; 
+  padding: 10px;
+  /* border: 1px solid white; ATENÇÃO Incluir para cada li uma definição da minha softskill
+  ex: Falar em publico - Habilidade desenvolvida ....*/
+}
+
+h1{
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
