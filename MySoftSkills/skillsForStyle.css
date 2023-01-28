@@ -1,62 +1,43 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  flex: 1;
-} 
 
-/* Variavel */
-:root{
-  --text-color:white;
-  --bg-url: url(./assets/bg-mobile.jpg);
-  --stroke-color:rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(0,0,0,0.02);
-  --highlight-color: rgba(255,255,255,0.2);
-  --switch-bg-url: url(./assets/moon-starse.svg);
-
-
-}
-
-
-body *{
-  font-family: "Inter", sans-serif;
-  color:var(--text-color)
-}
+/* Corpo */
 body{
-  /* background-image: url(./bg-desktop.jpg); */
-  background:#253140;
-  
+  background-color: #253140;
+  color: white;
 }
 
-.ima{
-  width: 600px;
-  margin-left: 400px;
-  margin-top: 50px;
-  border: 1px solid white;
-  border-radius: 10px;
-  
-
-}
-
-.container{
-  /* border: 1px solid white; */
-  
-  width:10%;
-  
-
-  
-}
-/* ul,li  {
-  list-style: none; 
-  padding: 10px;
-  /* border: 1px solid white; ATENÇÃO Incluir para cada li uma definição da minha softskill
-  ex: Falar em publico - Habilidade desenvolvida ....
-} 
-*/
-
-h1{
-  padding: 10px;
+/* Cabeçãlho */
+header{
+  border: 1px solid yellow;
+  color: yellow;
   text-align: center;
-  margin-bottom: 10px;
+  width: 400px;
+  margin-left: 400px;
+  margin-top: 30px;
+  
+}
+
+.name{
+  font-size: 25px;
+  padding: 0%;
+  margin: 0;
+}
+
+.skills{
+  font-size: 50px;
+  padding: 0%;
+  margin: 0;
+}
+
+/* Estrutura */
+
+article{
+  border: 1px solid white;
+}
+
+.lideranca{
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
 }
