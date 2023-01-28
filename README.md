@@ -30,6 +30,7 @@ O presente projeto de Portifólo foi desenvolvido usando as seguintes tecnologia
 - JavaScript
 - Git e Github
 - Figma
+- Canva
 
 ## 👨‍💻 Projeto
 
