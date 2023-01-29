@@ -13,6 +13,7 @@ header{
   width: 400px;
   margin-left: 400px;
   margin-top: 30px;
+  border-radius: 10px;
   
 }
 
@@ -35,6 +36,61 @@ article{
 }
 
 .lideranca{
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.comunicação{
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.resolução{
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.gestão{
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.tempo{
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.estratégia{
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.publico{
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.autodidatismo{
   width: 200px;
   margin: 10px;
   text-align: center;
