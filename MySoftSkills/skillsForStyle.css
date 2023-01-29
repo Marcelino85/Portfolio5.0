@@ -28,6 +28,15 @@ header{
   padding: 0%;
   margin: 0;
 }
+/* Container */
+.container{
+  border: 1px solid white;
+  margin: 10px;
+  height: 100vh;
+
+ 
+  
+}
 
 /* Estrutura */
 
@@ -38,62 +47,86 @@ article{
 .lideranca{
   width: 200px;
   margin: 10px;
+  margin-left: 20%;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
+  position: absolute;
 }
 .comunicação{
   width: 200px;
   margin: 10px;
+   margin-left: 50%;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
+  position: absolute;
 }
 
 .resolução{
   width: 200px;
   margin: 10px;
+  margin-left: 50%;
+  margin-top: 20%;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
+  position: absolute;
 }
 .gestão{
   width: 200px;
   margin: 10px;
+  margin-left: 20%;
+  margin-top: 20%;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
+  position: absolute;
 }
 
 .tempo{
   width: 200px;
   margin: 10px;
+  margin-top: 31%;
+  margin-left: 50%;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
+  position: absolute;
+  
 }
 
 .estratégia{
   width: 200px;
   margin: 10px;
+  margin-left: 20%;
+  margin-top: 31%;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
+  position: absolute;
 }
 
 .publico{
   width: 200px;
   margin: 10px;
+  margin-left: 50%;
+  margin-top: 40%;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
+  position: absolute;
 
 }
 
 .autodidatismo{
-  width: 200px;
-  margin: 10px;
-  text-align: center;
-  border-radius: 10px;
-  padding: 10px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 20%;
+    margin-top: 40%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+  
+    
 }
