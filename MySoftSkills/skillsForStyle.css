@@ -1,132 +1,111 @@
-
-/* Corpo */
-body{
-  background-color: #253140;
-  color: white;
-}
-
-/* Cabeçãlho */
-header{
-  border: 1px solid yellow;
-  color: yellow;
-  text-align: center;
-  width: 400px;
-  margin-left: 400px;
-  margin-top: 30px;
-  border-radius: 10px;
-  
-}
-
-.name{
-  font-size: 25px;
-  padding: 0%;
+*{
   margin: 0;
+  padding:0;
 }
-
-.skills{
-  font-size: 50px;
-  padding: 0%;
-  margin: 0;
-}
-/* Container */
-.container{
-  border: 1px solid white;
+.container1{
+  border: 1px solid red;
+  width: 100%;
   margin: 10px;
-  height: 100vh;
-
- 
-  
+    
 }
 
-/* Estrutura */
+header{
+  text-align: center;
+  border: 1px solid red;
+  margin: 10px;
+  width: 400px;
+  margin-left:700px;
+}
 
-article{
-  border: 1px solid white;
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  text-align: center;
+ align-items: center;
 }
 
 .lideranca{
-  width: 200px;
-  margin: 10px;
-  margin-left: 20%;
-  text-align: center;
-  border-radius: 10px;
+  background-color: blue;
+  color: #ffff;
   padding: 10px;
-  position: absolute;
-}
-.comunicação{
-  width: 200px;
+  width: calc(20% - 20px);
   margin: 10px;
-   margin-left: 50%;
-  text-align: center;
   border-radius: 10px;
-  padding: 10px;
-  position: absolute;
-}
+  }
 
-.resolução{
-  width: 200px;
-  margin: 10px;
-  margin-left: 50%;
-  margin-top: 20%;
-  text-align: center;
-  border-radius: 10px;
+  .comunicacao{
+  background-color: blue;
+  color: #ffff;
   padding: 10px;
-  position: absolute;
-}
-.gestão{
-  width: 200px;
+  width: calc(20% - 20px);
   margin: 10px;
-  margin-left: 20%;
-  margin-top: 20%;
-  text-align: center;
   border-radius: 10px;
-  padding: 10px;
-  position: absolute;
-}
+  }
 
+.resolucao{
+  background-color: blue;
+  color: #ffff;
+  padding: 10px;
+  width: calc(20% - 20px);
+  margin: 10px;
+  border-radius: 10px;
+}
+.gestao{
+  background-color: blue;
+  color: #ffff;
+  padding: 10px;
+  width: calc(20% - 20px);
+  margin: 10px;
+  border-radius: 10px;
+}
 .tempo{
-  width: 200px;
-  margin: 10px;
-  margin-top: 31%;
-  margin-left: 50%;
-  text-align: center;
-  border-radius: 10px;
+  background-color: blue;
+  color: #ffff;
   padding: 10px;
-  position: absolute;
-  
+  width: calc(20% - 20px);
+  margin: 10px;
+  border-radius: 10px;
 }
 
-.estratégia{
-  width: 200px;
-  margin: 10px;
-  margin-left: 20%;
-  margin-top: 31%;
-  text-align: center;
-  border-radius: 10px;
+.estrategia{
+  background-color: blue;
+  color: #ffff;
   padding: 10px;
-  position: absolute;
+  width: calc(20% - 20px);
+  margin: 10px;
+  border-radius: 10px;
 }
-
 .publico{
-  width: 200px;
-  margin: 10px;
-  margin-left: 50%;
-  margin-top: 40%;
-  text-align: center;
-  border-radius: 10px;
+  background-color: blue;
+  color: #ffff;
   padding: 10px;
-  position: absolute;
-
+ width: calc(20% - 20px);
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .autodidatismo{
-    width: 200px;
-    margin: 10px;
-    margin-left: 20%;
-    margin-top: 40%;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px;
-  
-    
+  background-color: blue;
+  color: #ffff;
+  padding: 10px;
+  width: calc(20% - 20px);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer{
+  text-align: center;
+  background-color: blueviolet;
+  color: #ffff;
+  padding: 10px;
+  width: 100%;
+ 
+ 
+}
+a{
+
+  text-decoration: none;
+  color:#ffff;
 }
